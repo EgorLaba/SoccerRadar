@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740497C624C1C70D00933606 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740497C524C1C70D00933606 /* NewsViewController.swift */; };
+		740497F424C6264900933606 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740497F224C6264900933606 /* NewsTableViewCell.swift */; };
+		740497FE24C6474000933606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740497FC24C6474000933606 /* Main.storyboard */; };
+		7404980224C6560800933606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404980124C6560800933606 /* AppDelegate.swift */; };
+		743493A024BF18FA007210E4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434939F24BF18FA007210E4 /* Models.swift */; };
+		7480D35724A8FF2B004F1D22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480D35624A8FF2B004F1D22 /* SceneDelegate.swift */; };
+		7480D35924A8FF2B004F1D22 /* SheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480D35824A8FF2B004F1D22 /* SheduleViewController.swift */; };
+		7480D35E24A8FF2E004F1D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7480D35D24A8FF2E004F1D22 /* Assets.xcassets */; };
+		7480D36124A8FF2E004F1D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7480D35F24A8FF2E004F1D22 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		740497C524C1C70D00933606 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		740497F224C6264900933606 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		740497FD24C6474000933606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../TableView/TableView/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7404980124C6560800933606 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../TemplateAuth/TemplateAuth/AppDelegate.swift; sourceTree = "<group>"; };
+		7434939F24BF18FA007210E4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7480D35124A8FF2B004F1D22 /* SoccerRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7480D35624A8FF2B004F1D22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7480D35824A8FF2B004F1D22 /* SheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleViewController.swift; sourceTree = "<group>"; };
+		7480D35D24A8FF2E004F1D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7480D36024A8FF2E004F1D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7480D36224A8FF2E004F1D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7480D34E24A8FF2B004F1D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740497EB24C6187D00933606 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				740497C524C1C70D00933606 /* NewsViewController.swift */,
+				7480D35824A8FF2B004F1D22 /* SheduleViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		740497ED24C618C900933606 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				740497EF24C6230900933606 /* Cell */,
+				7434939F24BF18FA007210E4 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		740497EE24C618F500933606 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7480D35D24A8FF2E004F1D22 /* Assets.xcassets */,
+				7480D35F24A8FF2E004F1D22 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		740497EF24C6230900933606 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				740497F224C6264900933606 /* NewsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7480D34824A8FF2B004F1D22 = {
+			isa = PBXGroup;
+			children = (
+				7480D35324A8FF2B004F1D22 /* SoccerRadar */,
+				7480D35224A8FF2B004F1D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7480D35224A8FF2B004F1D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7480D35124A8FF2B004F1D22 /* SoccerRadar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7480D35324A8FF2B004F1D22 /* SoccerRadar */ = {
+			isa = PBXGroup;
+			children = (
+				7404980124C6560800933606 /* AppDelegate.swift */,
+				7480D35624A8FF2B004F1D22 /* SceneDelegate.swift */,
+				740497EB24C6187D00933606 /* Common */,
+				740497ED24C618C900933606 /* Models */,
+				740497EE24C618F500933606 /* Resources */,
+				7480D36224A8FF2E004F1D22 /* Info.plist */,
+				740497FC24C6474000933606 /* Main.storyboard */,
+			);
+			path = SoccerRadar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7480D35024A8FF2B004F1D22 /* SoccerRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7480D36524A8FF2E004F1D22 /* Build configuration list for PBXNativeTarget "SoccerRadar" */;
+			buildPhases = (
+				7480D34D24A8FF2B004F1D22 /* Sources */,
+				7480D34E24A8FF2B004F1D22 /* Frameworks */,
+				7480D34F24A8FF2B004F1D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerRadar;
+			productName = SoccerRadar;
+			productReference = 7480D35124A8FF2B004F1D22 /* SoccerRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7480D34924A8FF2B004F1D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Egor;
+				TargetAttributes = {
+					7480D35024A8FF2B004F1D22 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7480D34C24A8FF2B004F1D22 /* Build configuration list for PBXProject "SoccerRadar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7480D34824A8FF2B004F1D22;
+			productRefGroup = 7480D35224A8FF2B004F1D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7480D35024A8FF2B004F1D22 /* SoccerRadar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7480D34F24A8FF2B004F1D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740497FE24C6474000933606 /* Main.storyboard in Resources */,
+				7480D36124A8FF2E004F1D22 /* LaunchScreen.storyboard in Resources */,
+				7480D35E24A8FF2E004F1D22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7480D34D24A8FF2B004F1D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7404980224C6560800933606 /* AppDelegate.swift in Sources */,
+				740497F424C6264900933606 /* NewsTableViewCell.swift in Sources */,
+				7480D35924A8FF2B004F1D22 /* SheduleViewController.swift in Sources */,
+				743493A024BF18FA007210E4 /* Models.swift in Sources */,
+				740497C624C1C70D00933606 /* NewsViewController.swift in Sources */,
+				7480D35724A8FF2B004F1D22 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740497FC24C6474000933606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740497FD24C6474000933606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7480D35F24A8FF2E004F1D22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7480D36024A8FF2E004F1D22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7480D36324A8FF2E004F1D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7480D36424A8FF2E004F1D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7480D36624A8FF2E004F1D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3YNK36LKJ;
+				INFOPLIST_FILE = SoccerRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.company.com.SoccerRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7480D36724A8FF2E004F1D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3YNK36LKJ;
+				INFOPLIST_FILE = SoccerRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = my.company.com.SoccerRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7480D34C24A8FF2B004F1D22 /* Build configuration list for PBXProject "SoccerRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7480D36324A8FF2E004F1D22 /* Debug */,
+				7480D36424A8FF2E004F1D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7480D36524A8FF2E004F1D22 /* Build configuration list for PBXNativeTarget "SoccerRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7480D36624A8FF2E004F1D22 /* Debug */,
+				7480D36724A8FF2E004F1D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7480D34924A8FF2B004F1D22 /* Project object */;
+}
