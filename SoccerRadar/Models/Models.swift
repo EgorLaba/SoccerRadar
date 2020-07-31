@@ -15,7 +15,9 @@ struct Response: Codable {
 struct News: Codable {
     var title: String
     var source: Source
-    var publishedAt: String?
+    var publishedAt: Date?
+    var urlToImage: String?
+    var content: String?
 }
 
 struct Source: Codable {

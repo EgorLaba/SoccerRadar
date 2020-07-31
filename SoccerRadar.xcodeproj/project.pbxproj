@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		740497C624C1C70D00933606 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740497C524C1C70D00933606 /* NewsViewController.swift */; };
 		740497F424C6264900933606 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740497F224C6264900933606 /* NewsTableViewCell.swift */; };
-		740497FE24C6474000933606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740497FC24C6474000933606 /* Main.storyboard */; };
 		7404980224C6560800933606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7404980124C6560800933606 /* AppDelegate.swift */; };
+		740F9F7C24D4C9CE00027BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740F9F7B24D4C9CE00027BF8 /* Main.storyboard */; };
 		743493A024BF18FA007210E4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434939F24BF18FA007210E4 /* Models.swift */; };
+		74683C5924D4D20E0082F615 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74683C5824D4D20E0082F615 /* DetailVC.swift */; };
+		74683C5C24D4D79E0082F615 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74683C5B24D4D79E0082F615 /* DateUtils.swift */; };
 		7480D35724A8FF2B004F1D22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480D35624A8FF2B004F1D22 /* SceneDelegate.swift */; };
 		7480D35924A8FF2B004F1D22 /* SheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480D35824A8FF2B004F1D22 /* SheduleViewController.swift */; };
 		7480D35E24A8FF2E004F1D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7480D35D24A8FF2E004F1D22 /* Assets.xcassets */; };
@@ -21,9 +23,11 @@
 /* Begin PBXFileReference section */
 		740497C524C1C70D00933606 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		740497F224C6264900933606 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
-		740497FD24C6474000933606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../TableView/TableView/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7404980124C6560800933606 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../TemplateAuth/TemplateAuth/AppDelegate.swift; sourceTree = "<group>"; };
+		740F9F7B24D4C9CE00027BF8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7434939F24BF18FA007210E4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		74683C5824D4D20E0082F615 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		74683C5B24D4D79E0082F615 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		7480D35124A8FF2B004F1D22 /* SoccerRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7480D35624A8FF2B004F1D22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7480D35824A8FF2B004F1D22 /* SheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				740497C524C1C70D00933606 /* NewsViewController.swift */,
+				74683C5824D4D20E0082F615 /* DetailVC.swift */,
 				7480D35824A8FF2B004F1D22 /* SheduleViewController.swift */,
 			);
 			path = Common;
@@ -78,6 +83,14 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		74683C5A24D4D7610082F615 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74683C5B24D4D79E0082F615 /* DateUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		7480D34824A8FF2B004F1D22 = {
 			isa = PBXGroup;
 			children = (
@@ -97,13 +110,14 @@
 		7480D35324A8FF2B004F1D22 /* SoccerRadar */ = {
 			isa = PBXGroup;
 			children = (
+				74683C5A24D4D7610082F615 /* Utils */,
 				7404980124C6560800933606 /* AppDelegate.swift */,
 				7480D35624A8FF2B004F1D22 /* SceneDelegate.swift */,
 				740497EB24C6187D00933606 /* Common */,
 				740497ED24C618C900933606 /* Models */,
 				740497EE24C618F500933606 /* Resources */,
 				7480D36224A8FF2E004F1D22 /* Info.plist */,
-				740497FC24C6474000933606 /* Main.storyboard */,
+				740F9F7B24D4C9CE00027BF8 /* Main.storyboard */,
 			);
 			path = SoccerRadar;
 			sourceTree = "<group>";
@@ -166,7 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				740497FE24C6474000933606 /* Main.storyboard in Resources */,
+				740F9F7C24D4C9CE00027BF8 /* Main.storyboard in Resources */,
 				7480D36124A8FF2E004F1D22 /* LaunchScreen.storyboard in Resources */,
 				7480D35E24A8FF2E004F1D22 /* Assets.xcassets in Resources */,
 			);
@@ -180,25 +194,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7404980224C6560800933606 /* AppDelegate.swift in Sources */,
+				74683C5C24D4D79E0082F615 /* DateUtils.swift in Sources */,
 				740497F424C6264900933606 /* NewsTableViewCell.swift in Sources */,
 				7480D35924A8FF2B004F1D22 /* SheduleViewController.swift in Sources */,
 				743493A024BF18FA007210E4 /* Models.swift in Sources */,
 				740497C624C1C70D00933606 /* NewsViewController.swift in Sources */,
 				7480D35724A8FF2B004F1D22 /* SceneDelegate.swift in Sources */,
+				74683C5924D4D20E0082F615 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		740497FC24C6474000933606 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				740497FD24C6474000933606 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7480D35F24A8FF2E004F1D22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
